@@ -1,4 +1,4 @@
-# DATA STRUCTURES AND ALGORITHMS 🔥🔥🔥🔥
+# DATA STRUCTURES AND ALGORITHMS 🔥🔥🔥🔥✨✨✨✨✨
 **Week 2 assignments on List complexity** 
 
 **Goal of this project 🎯**
