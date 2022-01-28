@@ -1,4 +1,5 @@
 import timeit
+#this algorithm estimates how long each algorithm would take for inputs of size 1,000,000.
 
 def my_list(list1):
     start = timeit.default_timer()
@@ -22,8 +23,7 @@ def my_list(list1):
 
         test_for_1million_size = (1000000 * time_elapsed) / list_length
         estimated_time = "{:.3f}".format(test_for_1million_size)
-    print("List: ", list1, "\nMax value: ", maxvalue,
-          "\nThe estimated time will be: ", estimated_time,
+    print("The estimated time will be: ", estimated_time,
               "seconds to run the algorithm\n\n")
 
 list1 = [5,8,45,89,65,35,22,45]
@@ -56,32 +56,3 @@ def lowercase(string):
           "seconds to run the algorithm\n\n")
 string = "My favouRite Song is LOSe Yourself by Eminem"
 lowercase(string)
-
-# Question 3
-def sort_list(my_list):
-    start = timeit.default_timer()
-    print("List: ",my_list)
-    my_list.sort()
-    print("Sorted list:", my_list)
-    end = timeit.default_timer()
-    Time = end-start
-    print("Time taken to sort the list:", end - start)
-
-#Time complexity
-    list_length = 0
-    timeusedlist = []
-    while list_length < 100:
-        if list_length == 8:
-            print(Time)
-        else:
-            time_for_list_containing_one = (list_length * Time) / 8
-        list_length += 1
-        timeusedlist.append(time_for_list_containing_one)
-        test_for_1million_size = (1000000 * Time) / list_length
-        estimated_time = "{:.3f}".format(test_for_1million_size)
-    print("The estimated time will be: ", estimated_time,
-          "seconds to run the algorithm\n\n")
-
-
-AnotherList = [89, 2, 76, 30, 200, 86, 5, 10]
-sort_list(AnotherList)
