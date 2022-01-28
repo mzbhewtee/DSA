@@ -1,6 +1,6 @@
 import timeit
 import matplotlib.pyplot as plt
-#imorted modules: timeit for time-related functions; matplotlib.pyplot for graphs plotting
+
 
 # question 1
 def my_list(list1):
@@ -12,7 +12,7 @@ def my_list(list1):
     end = timeit.default_timer()
     time_elapsed = end - start
 
-#Time Complexity 
+#Time Complexity
     list_length = 1
     timeusedlist = []
     while list_length < 100:
@@ -107,9 +107,9 @@ def lowercase(string):
 # Question 3
 def sort_list(my_list):
     start = timeit.default_timer()
-    print("List: ",AnotherList)
-    AnotherList.sort()
-    print("Sorted list:", AnotherList)
+    print("List: ",my_list)
+    my_list.sort()
+    print("Sorted list:", my_list)
     end = timeit.default_timer()
     Time = end-start
     print("Time taken to sort the list:", end - start)
