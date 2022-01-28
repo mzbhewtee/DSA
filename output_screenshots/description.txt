@@ -1,0 +1,1 @@
+This directory contains images of the graph output from implementation of the algorithms
