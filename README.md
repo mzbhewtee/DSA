@@ -22,4 +22,4 @@ Contributers 📝:
 
     Beauty Ikudehinbu
 
-    Sunday Moses 
+    Sarah Sunday Moses 
